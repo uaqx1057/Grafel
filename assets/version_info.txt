@@ -1,0 +1,29 @@
+# PyInstaller version resource for Grafel.exe (author/publisher metadata).
+# Shown in Windows Task Manager (Publisher), file Properties -> Details.
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0),
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('040904B0', [
+        StringStruct('CompanyName', 'Codewithusman.com'),
+        StringStruct('FileDescription', 'Grafel - the memory layer for AI coding'),
+        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('InternalName', 'Grafel'),
+        StringStruct('LegalCopyright', 'Copyright (c) Codewithusman.com'),
+        StringStruct('OriginalFilename', 'Grafel.exe'),
+        StringStruct('ProductName', 'Grafel'),
+        StringStruct('ProductVersion', '1.0.0.0'),
+      ]),
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])]),
+  ],
+)

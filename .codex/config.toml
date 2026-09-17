@@ -1,0 +1,10 @@
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"
+
+[mcp_servers.filesystem]
+command = "npx"
+args = [
+    "-y",
+    "@modelcontextprotocol/server-filesystem",
+    'C:\Users\Usman\OneDrive - iLab\Desktop\Graftool',
+]

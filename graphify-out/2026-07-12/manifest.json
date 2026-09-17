@@ -1,0 +1,32 @@
+{
+  "demo.py": {
+    "mtime": 1783859347.9311342,
+    "ast_hash": "3e529f670e6908e8ffdd07673289dad7",
+    "semantic_hash": ""
+  },
+  ".mcp.json": {
+    "mtime": 1783859347.9331334,
+    "ast_hash": "554b7da8c3853606748ac89f5cc92a08",
+    "semantic_hash": ""
+  },
+  ".vscode/mcp.json": {
+    "mtime": 1783859347.9331334,
+    "ast_hash": "2b7b03b70846a5514a4b91bb65353b49",
+    "semantic_hash": ""
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1783859347.936919,
+    "ast_hash": "eb52ccd67c6a4f06d29f210104ca7aa0",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1783859347.9363816,
+    "ast_hash": "eb52ccd67c6a4f06d29f210104ca7aa0",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1783859347.9358473,
+    "ast_hash": "eb52ccd67c6a4f06d29f210104ca7aa0",
+    "semantic_hash": ""
+  }
+}

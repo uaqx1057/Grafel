@@ -1,0 +1,29 @@
+🎯 Proof & trust (your differentiator — double down here)
+⭐ Savings dashboard — persist every scan/A-B result to ~/.grafel.json and show a running "tokens & $ saved this week/month" counter. Turns one-time proof into ongoing value people renew for.
+⭐ Shareable savings card — export the report as a PNG (repo name, % reduction, $ saved, Grafel logo). Instant social-media/marketing proof; users become your ad.
+Before/after live meter — a tiny widget showing tokens for the last N questions with/without the graph.
+Benchmark mode — run 5 canned questions automatically and show aggregate savings (no typing needed).
+⚙️ Core power
+⭐ Batch mode — "graph every repo under this folder" in one click (huge for people with many projects).
+Ask-the-graph panel — a built-in query box so users can graphify query from the GUI and see the answer, without opening a terminal.
+In-app graph viewer — render the graph inside the window (no browser hop).
+Incremental/auto refresh — schedule a rebuild (Task Scheduler) so graphs never go stale.
+Multi-repo merged graph — one cross-repo map for microservice/monorepo setups.
+👥 Team & collaboration (unlocks paid tiers)
+⭐ Shared team graph — push/pull a repo's graph so a whole team's agents reuse one map (cloud sync = subscription hook).
+Graph diff — show what changed in the architecture between two commits.
+Onboarding mode — auto-generate a "start here" tour of an unfamiliar codebase from the graph.
+🔌 Deeper AI integration
+More tools: Windsurf, Cline, Aider, Continue, JetBrains AI.
+MCP query server — expose graphify query as its own MCP tool so any agent calls it natively.
+Auto-detect installed AI tools and only show relevant checkboxes.
+💰 Business / monetization
+License/activation (free tier: 1 repo; Pro: unlimited + team + cloud).
+Usage analytics opt-in — anonymized "tokens saved across all users" for a landing-page headline.
+CLI companion — grafel . for terminal users (broadens the funnel).
+✨ UX & platform
+Onboarding wizard on first run (detect tools, pick a repo, show first savings).
+System tray + notifications (watch mode running quietly).
+macOS + Linux builds.
+Auto-update the app.
+Light theme toggle for people who don't want neon.

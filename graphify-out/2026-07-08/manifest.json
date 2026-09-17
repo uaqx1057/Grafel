@@ -1,0 +1,107 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1783531009.8465972,
+    "ast_hash": "5940e9cf7c8e0aab275e70dbf9d5e2c7",
+    "semantic_hash": ""
+  },
+  ".codex/hooks.json": {
+    "mtime": 1783531010.1150668,
+    "ast_hash": "00eab3ec7ce7fbf9c5444e79ba2b129b",
+    "semantic_hash": ""
+  },
+  ".mcp.json": {
+    "mtime": 1783444024.6213706,
+    "ast_hash": "8601e748a36a0c08a8fc5140ca37ed5b",
+    "semantic_hash": ""
+  },
+  ".vscode/mcp.json": {
+    "mtime": 1783444024.6203701,
+    "ast_hash": "762df949fa3b063da894df6a7bdb9517",
+    "semantic_hash": ""
+  },
+  ".vscode/settings.json": {
+    "mtime": 1783456477.4970894,
+    "ast_hash": "f7e05658340dfa0ec937c7dc76431065",
+    "semantic_hash": ""
+  },
+  ".github/copilot-instructions.md": {
+    "mtime": 1783529333.702343,
+    "ast_hash": "de2859cd633b0ccecf604cb3ee508bd4",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1783529333.7013457,
+    "ast_hash": "94c8d2885d5a3687156acccc31934223",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1783529333.7013457,
+    "ast_hash": "773986f07852410e3ac72c4c6eb6f9f8",
+    "semantic_hash": ""
+  },
+  "assets/make_icon.py": {
+    "mtime": 1783446127.1223276,
+    "ast_hash": "b52bce1b94cc95ceeb384fc2cf7afc61",
+    "semantic_hash": ""
+  },
+  "grafel.py": {
+    "mtime": 1783530793.1421552,
+    "ast_hash": "22b2b6edb70149cb0826776fb12ba960",
+    "semantic_hash": ""
+  },
+  "server/app.py": {
+    "mtime": 1783454405.7689314,
+    "ast_hash": "70cf090e6b7c603e13a6ca107933527c",
+    "semantic_hash": ""
+  },
+  ".github/workflows/build.yml": {
+    "mtime": 1783454405.7699337,
+    "ast_hash": "ca35e2dcbe9cc6b90f510fccd51f62f3",
+    "semantic_hash": ""
+  },
+  "GRAFEL.md": {
+    "mtime": 1783449311.7860844,
+    "ast_hash": "5396b516e774d96921f073db06a39404",
+    "semantic_hash": ""
+  },
+  "HANDOFF.md": {
+    "mtime": 1783463162.339685,
+    "ast_hash": "5450298ee7f91b52bc72fc6ca7d5da88",
+    "semantic_hash": ""
+  },
+  "TODO.md": {
+    "mtime": 1783465055.5081258,
+    "ast_hash": "618533258fb9b3c915dbedb23201231b",
+    "semantic_hash": ""
+  },
+  "assets/version_info.txt": {
+    "mtime": 1783465736.6260512,
+    "ast_hash": "8dffa7d04eee7592802430c0c21726ee",
+    "semantic_hash": ""
+  },
+  "features.txt": {
+    "mtime": 1783449640.6803265,
+    "ast_hash": "f0afb4b0c983eced17085c226f1ad8b3",
+    "semantic_hash": ""
+  },
+  "grafel-chats/2026-07-08-live-meter-rework.md": {
+    "mtime": 1783530853.442386,
+    "ast_hash": "11adcd504768420684639cde908e96ef",
+    "semantic_hash": ""
+  },
+  "server/README.md": {
+    "mtime": 1783454405.7699337,
+    "ast_hash": "35a3e0d8f2e99b7b511345c6c917bd81",
+    "semantic_hash": ""
+  },
+  "server/requirements.txt": {
+    "mtime": 1783454405.7689314,
+    "ast_hash": "db2b225047d6261c9589cd2e4cb1a3bf",
+    "semantic_hash": ""
+  },
+  "assets/grafel.png": {
+    "mtime": 1783465700.2349408,
+    "ast_hash": "2c1f39f5107d48f3f7ce66962b5b280a",
+    "semantic_hash": ""
+  }
+}

@@ -46,3 +46,6 @@ Policy: Grafel helper commands are mandatory and bypasses should be treated as p
 - When user seems confused, safety risk high, or action irreversible: temporarily answer in normal clear prose.
 - Prefer pattern: [thing] [action] [reason]. [next step].
 <!-- grafel-brevity:end -->
+
+## Gotchas
+- graphifyy >= ~0.9.8x re-execs itself to pin PYTHONHASHSEED and crashes (silent exit 1) when launched from pythonw / the windowed exe. grafel.py sets `os.environ.setdefault("PYTHONHASHSEED", "0")` at import so graphify skips the re-exec. Don't remove it.

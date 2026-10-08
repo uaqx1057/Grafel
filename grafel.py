@@ -274,6 +274,13 @@ def resource_path(name):
     return os.path.join(base, name)
 
 
+# graphify >= the #3799 fix re-execs itself to pin PYTHONHASHSEED and calls
+# sys.stdout.flush() first - under pythonw / the windowed exe stdout is None,
+# so every graphify command dies with exit 1. Pre-pinning the seed in our
+# env (inherited by all children) makes graphify skip that re-exec.
+os.environ.setdefault("PYTHONHASHSEED", "0")
+
+
 def graphify_cmd():
     """Resolve how to invoke the graphify engine, in preference order:
     python -m graphify -> bundled engine inside this exe -> system CLI shim.

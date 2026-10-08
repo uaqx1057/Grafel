@@ -280,6 +280,23 @@ def resource_path(name):
 # env (inherited by all children) makes graphify skip that re-exec.
 os.environ.setdefault("PYTHONHASHSEED", "0")
 
+# Pinned engine version - bump deliberately after testing a new graphifyy
+# release (build.bat and .github/workflows/build.yml pin the same version).
+GRAPHIFY_SPEC = "graphifyy==0.9.81"
+
+
+def console_python():
+    """Interpreter for engine subprocesses. pythonw.exe has no console, so
+    sys.stdout/stderr are None and graphify (tested only from consoles) can
+    crash silently with exit 1. Use the sibling python.exe instead - callers
+    spawn with CREATE_NO_WINDOW, so no console window appears."""
+    exe = sys.executable
+    if os.name == "nt" and os.path.basename(exe).lower() == "pythonw.exe":
+        alt = os.path.join(os.path.dirname(exe), "python.exe")
+        if os.path.isfile(alt):
+            return alt
+    return exe
+
 
 def graphify_cmd():
     """Resolve how to invoke the graphify engine, in preference order:
@@ -292,13 +309,13 @@ def graphify_cmd():
     try:
         import importlib.util
         if importlib.util.find_spec("graphify") is not None:
-            return [sys.executable, "-m", "graphify"]
+            return [console_python(), "-m", "graphify"]
     except Exception:
         pass
     exe = find_graphify()
     if exe:
         return [exe]
-    return [sys.executable, "-m", "graphify"]
+    return [console_python(), "-m", "graphify"]
 
 
 def engine_available():
@@ -1210,11 +1227,11 @@ class App:
                 # NOTE: "graphifyy" (double y) IS the real PyPI distribution
                 # name; the importable module is "graphify". Not a typo —
                 # build.bat and CI install the same package.
-                code, _ = run_cmd([sys.executable, "-m", "pip", "install",
-                                   "graphifyy"], self.log)
+                code, _ = run_cmd([console_python(), "-m", "pip", "install",
+                                   GRAPHIFY_SPEC], self.log)
                 if code != 0:
                     self.fail("Could not install the Grafel engine. "
-                              "Run: pip install graphifyy")
+                              f"Run: pip install {GRAPHIFY_SPEC}")
                     return
                 self._need_install = False
 

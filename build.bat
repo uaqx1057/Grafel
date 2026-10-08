@@ -18,7 +18,7 @@ powershell -ExecutionPolicy Bypass -File "%~dp0verify-grafel.ps1" || goto :fail
 
 echo [1/5] Installing build dependencies...
 python -m pip install --quiet --upgrade pyinstaller pillow pystray || goto :fail
-python -c "import graphify" 2>nul || python -m pip install --quiet graphifyy || goto :fail
+python -m pip install --quiet graphifyy==0.9.81 || goto :fail
 
 echo [2/5] Generating icon...
 python assets\make_icon.py || goto :fail

@@ -49,3 +49,4 @@ Policy: Grafel helper commands are mandatory and bypasses should be treated as p
 
 ## Gotchas
 - graphifyy >= ~0.9.8x re-execs itself to pin PYTHONHASHSEED and crashes (silent exit 1) when launched from pythonw / the windowed exe. grafel.py sets `os.environ.setdefault("PYTHONHASHSEED", "0")` at import so graphify skips the re-exec. Don't remove it.
+- graphify `watch` needs the `watchdog` package (graphifyy `[watch]` extra). Without it WATCH exits instantly with "watchdog not installed". All installs use `graphifyy[watch]==<pin>`.

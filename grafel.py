@@ -282,7 +282,7 @@ os.environ.setdefault("PYTHONHASHSEED", "0")
 
 # Pinned engine version - bump deliberately after testing a new graphifyy
 # release (build.bat and .github/workflows/build.yml pin the same version).
-GRAPHIFY_SPEC = "graphifyy==0.9.81"
+GRAPHIFY_SPEC = "graphifyy[watch]==0.9.81"
 
 
 def console_python():

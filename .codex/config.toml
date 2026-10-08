@@ -6,5 +6,5 @@ command = "npx"
 args = [
     "-y",
     "@modelcontextprotocol/server-filesystem",
-    'C:\Users\Usman\OneDrive - iLab\Desktop\Graftool',
+    'C:\Users\uaqx1\Documents\GitHub\Grafel',
 ]

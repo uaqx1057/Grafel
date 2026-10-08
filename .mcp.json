@@ -9,11 +9,11 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "C:\\Users\\Usman\\OneDrive - iLab\\Desktop\\Graftool"
+        "C:\\Users\\uaqx1\\Documents\\GitHub\\Grafel"
       ]
     },
     "grafel-strict": {
-      "command": "C:\\Users\\Usman\\OneDrive - iLab\\Desktop\\Graftool\\graphify-out\\grafel-mcp.cmd",
+      "command": "C:\\Users\\uaqx1\\Documents\\GitHub\\Grafel\\graphify-out\\grafel-mcp.cmd",
       "args": []
     }
   }
